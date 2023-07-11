@@ -43,4 +43,4 @@ jobs:
       # タグを切り、リリースノートを作成する
       - name: Create Release
         run: |
-          echo \"${{ steps.release_note.outputs.release_note }}\"
+          echo "${{ steps.release_note.outputs.release_note }}"
