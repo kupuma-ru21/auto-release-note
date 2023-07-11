@@ -38,7 +38,7 @@ jobs:
       - name: Generate release note
         id: release_note
         run: |
-          echo "release_note={ body: foo "bar" baz } | jq .body" >> $GITHUB_OUTPUT
+          echo "release_note={ body: foo \"bar\" baz } | jq .body" >> $GITHUB_OUTPUT
 
       - name: Debug
         run: |
