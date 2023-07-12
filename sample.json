@@ -1,0 +1,4 @@
+{
+  "name": "Release v1.0.0 is now available!",
+  "body": "<!-- Release notes generated using configuration in .github/release.yml at main -->\\n\\n## What's Changed\\n### Other Changes 🛠\\n* Revert \\"chore: remove json\\" by @kupuma-ru21 in https://github.com/kupuma-ru21/auto-release-note/pull/2\\n\\n\\n**Full Changelog**: https://github.com/kupuma-ru21/auto-release-note/compare/2023.07.12-1...2023.07.12-2\"
+}
