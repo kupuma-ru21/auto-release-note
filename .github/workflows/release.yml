@@ -8,5 +8,5 @@ on:
 
 jobs:
   create-release-note:
-    uses: kupuma-ru21/auto-release-actions/reusable-workflow.yml
+    uses: kupuma-ru21/auto-release-actions/reusable-workflow.yml@v1
     secrets: inherit
