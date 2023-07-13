@@ -7,6 +7,9 @@ on:
   workflow_dispatch:
 
 jobs:
-  create-release-note:
-    uses: kupuma-ru21/auto-release-actions/.github/workflows/reusable-workflow.yml@main
-    secrets: inherit
+  call-workflow-passing-data:
+    uses: kupuma-ru21/auto-release-actions/blob/main/.github/workflows/called.yml@main
+    with:
+      config-path: .github/labeler.yml
+    secrets:
+      envPAT: ${{ secrets.envPAT }}
